@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-  <title>PyBer</title>
+  <title>WeatherPy</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   
   <!-- jQuery library -->
@@ -18,7 +18,7 @@
   <div class="container">   
     <div class="row">
       <div class="col-md-8">
-      <a class="nav-link" align="left" styly="text-decoration:none" href="index.html"><h1>Pyber</h1></a>
+      <a class="nav-link" align="left" styly="text-decoration:none" href="index.html"><h1>WeatherPy</h1></a>
       </div>
       <div class="col-md-4 dropdown" align="right">
         <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
@@ -26,22 +26,21 @@
           <ul class="dropdown-menu dropdown-menu-right">
           <li><a href="index.html">Home</a></li>
           <li><a href="comparison.html">Comparisons</a></li>
-          <li><a href="city.html">City Analysis</a></li>
-          <li><a href="rider.html">Rider Analysis</a></li>
-          <li><a href="fare.html">Fare Analysis</a></li>
+          <li><a href="city.html">Temparature</a></li>
+          <li><a href="rider.html">Humidity</a></li>
+          <li><a href="fare.html">Wind Speed</a></li>
+          <li><a href="driver.html">Cloudiness</a></li>
           <li><a href="data.html">Driver Analysis</a></li>
           </ul>
       </div>   
       <div class="row">
           <div class="col-md-8 col-sm-12">
               <div class="col-md-12; jumbotron"> 
-              <h1 class="display-3" align="center">Where are the Drivers?</h1>
+              <h1 class="display-3" align="center">Cloudiness</h1>
               <hr class="my-4">
-              <p><img class="img-responsive" style="width:70%; margin-left:auto; margin-right:auto; margin-bottom:5px" src="driverbycitytype.png" alt="Scatter Plot">Pie charts sure are exciting aren't they.
-                This chart shows that the majority of drivers are in urban cities, followed by suburban, and then rural. 
+              <p><img class="img-responsive" style="width:70%; margin-left:auto; margin-right:auto; margin-bottom:5px" src="driverbycitytype.png" alt="Scatter Plot">This chart shows how cloudy it is at different 
+                latitudes. It's hard to draw any conclusions from the data. Geography probably has a lot to do with cloudiness and that's a variable we're not looking at here. 
               </p>  
-              <p>Without population data it would be hard to make further guesses, but it's likely due to a younger demographic in urban areas. 
-              </p>
               </div>
             </div>
           <div class="col-md-4 col-sm-12">
@@ -56,6 +55,7 @@
                     <a href="driver.html"><img class="img-responsive" style="width:100%" src="driverbycitytype.png" alt="Pie Chart"></a>
                     </div>  
                   </div>
+                  <br>  
                   <div class="row">
                     <div class="col-sm-6">
                     <a href="fare.html"><img class="img-responsive" style="width:100%" src="farebycitytype.png" alt="Pie Chart"></a>
